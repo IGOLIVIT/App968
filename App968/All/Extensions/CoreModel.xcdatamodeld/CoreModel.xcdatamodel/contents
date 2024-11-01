@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CrypModel" representedClassName="CrypModel" syncable="YES" codeGenerationType="class">
+        <attribute name="crEx" optional="YES" attributeType="String"/>
+        <attribute name="crName" optional="YES" attributeType="String"/>
+        <attribute name="crPhoto" optional="YES" attributeType="String"/>
+        <attribute name="crWell" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InvestModel" representedClassName="InvestModel" syncable="YES" codeGenerationType="class">
+        <attribute name="inDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="inPlat" optional="YES" attributeType="String"/>
+        <attribute name="inType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlatModel" representedClassName="PlatModel" syncable="YES" codeGenerationType="class">
+        <attribute name="plCC" optional="YES" attributeType="String"/>
+        <attribute name="plLink" optional="YES" attributeType="String"/>
+        <attribute name="plName" optional="YES" attributeType="String"/>
+        <attribute name="plNewName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
